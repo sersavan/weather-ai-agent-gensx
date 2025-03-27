@@ -11,14 +11,6 @@ This project demonstrates how to create an intelligent weather agent that:
 - Generates human-like responses with context awareness
 - Offers multiple interfaces (Telegram bot and CLI)
 
-## ✨ Features
-
-- **Natural Language Understanding**: Ask about weather in any city using conversational language
-- **Location Extraction**: Automatically identifies city/location names from user queries
-- **Real-time Weather Data**: Uses the public wttr.in API to retrieve current weather conditions
-- **Context-aware Responses**: Produces friendly, informative responses that address the user's specific questions
-- **Multi-platform**: Available as a Telegram bot or command-line interface
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -32,8 +24,8 @@ This project demonstrates how to create an intelligent weather agent that:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/weather-gensx.git
-   cd weather-gensx
+   git clone https://github.com/sersavan/weather-ai-agent-gensx.git
+   cd weather-ai-agent-gensx
    ```
 
 2. Install dependencies:
