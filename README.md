@@ -40,6 +40,17 @@ This project demonstrates how to create an intelligent weather agent that:
    MODE=telegram  # or 'console' for CLI mode 
    ```
 
+### Getting an OpenAI API Key
+
+To use the AI capabilities, you need an OpenAI API key:
+
+1. Go to [OpenAI API](https://platform.openai.com/signup) and create an account (if you don't have one)
+2. Navigate to the [API Keys page](https://platform.openai.com/account/api-keys)
+3. Click on "Create new secret key" and give it a name
+4. Copy the generated API key (note: it will only be shown once)
+5. Paste this key as the `OPENAI_API_KEY` value in your `.env` file
+6. Note that OpenAI API usage incurs costs based on your usage
+
 ### Getting a Telegram Bot Token
 
 To use the Telegram bot functionality, you need to create a bot and get its token:
