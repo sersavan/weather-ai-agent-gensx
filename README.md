@@ -40,6 +40,16 @@ This project demonstrates how to create an intelligent weather agent that:
    MODE=telegram  # or 'console' for CLI mode 
    ```
 
+### Getting a Telegram Bot Token
+
+To use the Telegram bot functionality, you need to create a bot and get its token:
+
+1. Open Telegram and search for [@BotFather](https://t.me/botfather)
+2. Start a chat with BotFather and send the command `/newbot`
+3. Follow the instructions to name your bot and set a username
+4. Once created, BotFather will provide you with a token (looks like `123456789:ABCDefGhIJKlmNoPQRsTUVwxyZ`)
+5. Copy this token and paste it as the `TELEGRAM_BOT_TOKEN` value in your `.env` file
+
 ### Usage
 
 #### Telegram Mode
