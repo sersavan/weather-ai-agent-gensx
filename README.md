@@ -37,22 +37,10 @@ This project demonstrates how to create an intelligent weather agent that:
    ```
    OPENAI_API_KEY=your_openai_api_key
    TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-   MODE=console  # or 'telegram' for Telegram mode
+   MODE=telegram  # or 'console' for CLI mode 
    ```
 
 ### Usage
-
-#### Console Mode
-
-Run the agent in console mode:
-```bash
-npm run dev
-```
-
-Ask questions about the weather in natural language:
-```
-Your question: What's the weather like in Tokyo?
-```
 
 #### Telegram Mode
 
@@ -62,6 +50,19 @@ Your question: What's the weather like in Tokyo?
    npm run dev
    ```
 3. Find your bot on Telegram and start chatting!
+
+#### Console Mode
+
+1. Set `MODE=console` in your `.env` file
+2. Run the agent in console mode:
+   ```bash
+   npm run dev
+   ```
+
+3. Ask questions about the weather in natural language:
+   ```
+   Your question: What's the weather like in Tokyo?
+   ```
 
 ## 🧩 Why GenSX?
 
@@ -80,21 +81,6 @@ GenSX provides an exceptional framework for building AI agents because:
 6. **Debugging Tools**: Trace execution flows and inspect inputs/outputs of each component
 
 7. **Production-Ready**: Deploy agents with confidence using a framework designed for reliability
-
-## 🔍 How It Works
-
-The agent follows this workflow:
-
-1. Receives a natural language query about weather
-2. Extracts the location name using an LLM
-3. Fetches real-time weather data from wttr.in API
-4. Generates a natural language response using the weather data and original query
-5. Returns the response to the user via the chosen interface
-
-## 📝 Project Structure
-
-- `src/index.tsx` - Main agent implementation with all components and workflows
-- `.env` - Configuration for API keys and mode settings
 
 ## 📚 Learn More
 
